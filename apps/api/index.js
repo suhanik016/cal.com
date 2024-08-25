@@ -7,7 +7,7 @@ const apiProxyV1 = createProxyMiddleware({
 });
 
 const apiProxyV2 = createProxyMiddleware({
-  target: "http://localhost:3004",
+  target: "http://localhost:3000",
 });
 
 const app = connect();
